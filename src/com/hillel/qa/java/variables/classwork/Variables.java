@@ -40,24 +40,24 @@ public class Variables {
          */
 
         //Створення або оголошення змінної
-/*
+        /*
         int number; // int це тип, а number - це її назва.
         String text;
         double time;*/
 
         //Присвоювання або ініціалізація змінної
-/*
+        /*
         int age = 15;
         String message = "Hello";
         double speed = 55.2;*/
 
         // Ще одна особливість операції присвоєння (=) - її можна здійснювати "по ланцюжку":
-
+        /*
         int a = 5;
         int b = 10;
         int c = a = b;
         System.out.println(c);
-
+        */
         // А ще можно так!
 
         //int a = 5, b = 6, c = 7;
