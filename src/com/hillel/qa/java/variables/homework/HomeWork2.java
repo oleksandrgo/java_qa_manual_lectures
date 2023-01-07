@@ -5,7 +5,7 @@ public class HomeWork2 {
      * <h2>Вимоги:</h2>
      * <ul style="font-size:12px">
      *     <li>Розкоментуйте код</li>
-     *     <li>Виправіть помилки щоб код можно було вивести в консоль</li>
+     *     <li>Виправіть помилки щоб код можна було вивести в консоль</li>
      * </ul>
      */
     public static void main(String[] args) {

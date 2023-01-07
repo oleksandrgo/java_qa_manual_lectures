@@ -1,7 +1,5 @@
 package com.hillel.qa.java.comparison_operators.homework;
 
-import java.util.Scanner;
-
 public class HomeWork1 {
     /**
      * <p style="font-size:12px">

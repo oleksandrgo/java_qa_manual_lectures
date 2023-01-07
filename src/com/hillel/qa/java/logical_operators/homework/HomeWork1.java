@@ -3,7 +3,7 @@ package com.hillel.qa.java.logical_operators.homework;
 public class HomeWork1 {
     /**
      * <p style="font-size:12px">
-     * В нас буде програма яка виводити в консоль зміну isProvideDriverLicense,
+     * В нас буде програма яка буде виводити в консоль змінну isProvideDriverLicense,
      * в якій буде зберігатися значення true, false. Вимоги для отримання водійського посвідчення
      * наступні:
      * </p>
