@@ -4,7 +4,7 @@ public class HomeWork3 {
     /**
      * <p style="font-size:12px">
      * Вивести на екран суму чисел від 1 до 100 включно, які не кратні 3.
-     * Обовязково використовуйте continue
+     * Обовʼязково використовуйте continue
      * </p>
      */
     public static void main(String[] args) {
