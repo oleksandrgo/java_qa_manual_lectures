@@ -16,16 +16,16 @@ public class CellPhone {
     public String color;
     private int money = 0;
 
-//    public CellPhone (String a, int b) {
-//        this.model = a;
-//        this.money = b;
-//    }
+    public CellPhone (String model, int money) {
+        this.model = model;
+        this.money = money;
+    }
     public void call(String contact) {
         if (money>= 1) {
             if(contact.equals("Мама")) {
                 System.out.println("Дзвоню до мами...");
             } else if(contact.equals("Саня")) {
-                System.out.println("Ало Саньок");
+                System.out.println("Ало Саня");
             }
             money = money - 1;
         } else {

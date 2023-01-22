@@ -2,10 +2,11 @@ package OOP;
 
 public class Tablet extends CellPhone {
 
-//    public Tablet(String a, int b) {
-//        super(a, b);
-//    }
-    public boolean pen;
+    public Tablet(String model, int money) {
+        super(model, money);
+    }
+    public boolean pointer;
+    public boolean gps;
 
     public void haveBluetooth () {
         this.bluetooth = true;
@@ -17,7 +18,7 @@ public class Tablet extends CellPhone {
         if(contact.equals("Мама")) {
             System.out.println("Дзвоню до мами через вайбер...");
         } else if(contact.equals("Саня")) {
-            System.out.println("Ало Саньок, напиши в телеграм");
+            System.out.println("Ало Саня, напиши в телеграм");
         }
     }
 
