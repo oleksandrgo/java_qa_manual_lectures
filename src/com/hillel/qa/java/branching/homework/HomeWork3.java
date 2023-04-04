@@ -22,6 +22,23 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
+        double purchaseAmount = 1000;
+        String paymentMethod = "card";
+
+        switch (paymentMethod) {
+            case "cash":
+                System.out.println("Сумма к оплате: " + purchaseAmount);
+                break;
+            case "card":
+                System.out.println("Сумма к оплате (с учетом комиссии): " + purchaseAmount * 0.02);
+                break;
+            case "invoice":
+                System.out.println("Сумма к оплате (с учетом комиссии): " + purchaseAmount * 0.05);
+                break;
+            default:
+                System.out.println("Неверный способ оплаты.");
+                break;
+        }
 
     }
 }
