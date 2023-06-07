@@ -12,6 +12,23 @@ public class HomeWork2 {
      *
      */
     public static void main(String[] args) {
+    int x = 0;
+    int y = 0;
+        boolean firstQuarter = (x > 0 && y > 0);
+        boolean secondQuarter = (x < 0 && y > 0);
+        boolean thirdQuarter = (x < 0 && y < 0);
+        boolean fourthQuarter = (x > 0 && y < 0);
+        if (firstQuarter){
+            System.out.println("Ціль знаходиться в 1");
+        } else if (secondQuarter){
+            System.out.println("Ціль знаходиться в 2");
+        } else if (thirdQuarter){
+            System.out.println("Ціль знаходиться в 3");
+        } else if (fourthQuarter){
+            System.out.println("Ціль знаходиться в 4");
+        }else {
+            System.out.println("'x' та 'y' = 0");
+        }
 
     }
 }

@@ -1,5 +1,8 @@
 package com.hillel.qa.java.branching.homework;
 
+import java.nio.channels.SelectionKey;
+import java.util.Scanner;
+
 public class HomeWork3 {
     /**
      * <h1>Вимоги</h1>
@@ -23,5 +26,46 @@ public class HomeWork3 {
      */
     public static void main(String[] args) {
 
+        boolean cashPay = false;
+        boolean cardPay = false;
+        boolean billPay = true;
+        int payType = 0;
+
+        Scanner mySum = new Scanner(System.in);
+        System.out.println("Введіть суму купівлі: ");
+        float paySum = mySum.nextFloat();
+        if (paySum >= 0) {
+            //float paySum = 100;
+            float totalSum;
+
+            if (cashPay == true) {
+                payType = 1;
+            } else if (cardPay == true) {
+                payType = 2;
+            } else if (billPay == true) {
+                payType = 3;
+            } else {
+                System.out.println("Варіант виведення, коли немає відповідності будь-якому способу оплати.");
+            }
+            switch (payType) {
+                case 1:
+                    totalSum = paySum;
+                    System.out.println("Суму для оплати: " + totalSum);
+                    break;
+                case 2:
+                    totalSum = (float) (paySum * 1.02);
+                    System.out.println("Суму для оплати: " + totalSum);
+                    break;
+                case 3:
+                    totalSum = (float) (paySum * 1.05);
+                    System.out.println("Суму для оплати: " + totalSum);
+                    break;
+                default:
+                    System.out.println("А як тоді?.");
+            }
+        }
+        else {
+            System.out.println("Сума повинна буди більше '0'!");
+        }
     }
 }
