@@ -1,16 +1,26 @@
-import OOP.CellPhone;
-import OOP.Tablet;
+/*import MOBPHON_20230603.MobilePhone;
+
+import MOBPHON_20230603.Tablet;
 
 public class Main {
     public static void main(String[] args) {
-        CellPhone myPhone = new CellPhone("iPhone 3G", 10);
-        System.out.println(myPhone.model);
 
-        Tablet myTablet = new Tablet("Samsung", 0);
-        myTablet.pointer = true;
-        myTablet.gps = true;
+        MobilePhone myPhon = new MobilePhone();
+        myPhon.hasSensor =true;
+        myPhon.model = "iPhone 3G";
+        myPhon.hasBlueTooth = true;
+        myPhon.msize = 6.7;
+        System.out.println(myPhon.model);
+        myPhon.addCredits(10,"SHha273GD");
+        myPhon.call("mama");
 
-        myTablet.call("Hillel reception");
-
+        MobilePhone nokia = new MobilePhone();
+        nokia.model = "Nokia X500";
+        nokia.msize = 40;
+        nokia.hasSensor = false;
+        nokia.wiFi = false;
+        System.out.println(nokia.model);
+        //nokia.credits = 10;
+        nokia.call("other");
     }
-}
+}*/

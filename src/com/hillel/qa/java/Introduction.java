@@ -40,6 +40,7 @@ public class Introduction {
          */
         System.out.println("Hello world");
 
+
         // TODO: Створіть свій клас та виведіть там "QA це круто!"
     }
 }

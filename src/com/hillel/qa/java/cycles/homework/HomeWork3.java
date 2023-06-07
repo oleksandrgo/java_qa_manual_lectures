@@ -8,6 +8,18 @@ public class HomeWork3 {
      * </p>
      */
     public static void main(String[] args) {
+        int totalSum = 0;
 
+        for (int rightNum = 1; rightNum <= 100; rightNum++) {
+            if (rightNum % 3 == 0) {
+                //System.out.println(rightNum);
+                continue;
+            }
+
+            totalSum += rightNum;
+        }
+
+        System.out.println("Сумма чисел от 1 до 100 (не кратных 3): " + totalSum);
     }
 }
+

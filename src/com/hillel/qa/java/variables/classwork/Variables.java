@@ -6,8 +6,8 @@ package com.hillel.qa.java.variables.classwork;
  * <h1>Зміні</h1>
  */
 
-public class Variables {
-    /**
+/**public class kyryloVariables {
+
      * <p style="font-size:12px">
      *
      * <b style="color: #ffd700">Змінні</b> — це таке місце, де зберігаються дані. У Java всі дані зберігаються у змінних.
@@ -30,7 +30,7 @@ public class Variables {
      * <br>
      * <a href="https://www.w3schools.com/java/java_data_types.asp">Стаття про типи данних</a>
      */
-    public static void main(String[] args) {
+/**public static void main(String[] args) {
         // Перед тим як розпочати тему зміні, трохи про коментарі!
         /*
          Коментарі у мові Java, як і більшості інших мов програмування,
@@ -164,7 +164,7 @@ public class Variables {
 //        System.out.println(message.charAt(0)); // Метод приймає число, яке поверне літеру за її номером у строці. В нашому випадку H
 //        System.out.println("Hello".equals("hello")); // Трохи далі ми розберемо як робити порівняння, треба запам'ятати що String треба порівнювати за допомогою equals
 
-    }
+    //}
 
 
-}
+//}

@@ -82,7 +82,6 @@ public class Cycles {
         Розглянемо як це буде виглядати з командою break.
          */
 
-        /*
         Scanner console = new Scanner(System.in);
         while (true)
         {
@@ -90,7 +89,6 @@ public class Cycles {
             if (s.equals("exit"))
                 break;
         }
-        */
 
         /*
         Команда continue.
@@ -101,8 +99,8 @@ public class Cycles {
          На відміну від команди break, команда continue перериває поточний виток циклу, але не сам цикл.
          */
 
-       /*
-       int i = 0;
+
+       /*int i = 0;
        while (i <= 20) {
             if ((i % 2) == 0) {
                 i++;
@@ -110,8 +108,8 @@ public class Cycles {
             }
             System.out.println(i);
             i++;
-        }
-        */
+        }*/
+
 
         /*
         Зворотний цикл do while.
